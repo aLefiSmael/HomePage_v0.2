@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#inicio{
+    background-image: linear-gradient(to right, white, aqua);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
+}
+
+.contatos{
+    display: inline;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media (max-width: 570px) {
+    .col{
+        font-size: 10px;
+    }
+}
+
+.col:hover{
+    transition-duration: 0.7s;
+    background-clip:padding-box;
+    border-radius: 15px;
+}
+
+#linkedin:hover{
+    background-color: #5580C9;
+}
+
+#discord:hover{
+    background-color: #6C70F3;
+}
+
+#email:hover{
+    background-color: white;
+}
+
+#github:hover{
+    background-color: #BFBEBE;
+}
+
+#eu{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    display:inline;
+}
+
+#paragrafo{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+
+#table{
+    margin-bottom: 25px;
+}
+
+#projetos{
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: '🔗';
+}
+
+li{
+    margin-top: 10px;
+}
+
+li:hover{
+    transition-duration: 0.7s;
+    background-clip:padding-box;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+.link{
+    text-decoration: none;
+}
+
+#final{
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to top, aqua 10%, white);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+footer p{
+    margin-bottom: 0%;
+}
