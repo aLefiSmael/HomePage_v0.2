@@ -18,7 +18,7 @@ radio1.forEach(button => {
 function correct1(resposta){
     var r1 = window.document.getElementById('r1')
     if(resposta == 'Realizar operações matemáticas'){
-        r1.style.background = 'rgb(53, 230, 17)'
+        r1.style.background = 'aqua'
     }
     else{
         r1.style.background = 'rgb(236, 103, 121)'
@@ -34,7 +34,7 @@ radio2.forEach(button => {
 function correct2(resposta){
     var r2 = window.document.getElementById('r2')
     if(resposta == 'Random Access Memory'){
-        r2.style.background = 'rgb(53, 230, 17)'
+        r2.style.background = 'aqua'
     }
     else{
         r2.style.background = 'rgb(236, 103, 121)'
@@ -50,7 +50,7 @@ radio3.forEach(button => {
 function correct3(resposta){
     var r3 = window.document.getElementById('r3')
     if(resposta == 'SSD (Unidade de Estado Sólido)'){
-        r3.style.background = 'rgb(53, 230, 17)'
+        r3.style.background = 'aqua'
     }
     else{
         r3.style.background = 'rgb(236, 103, 121)'
@@ -66,7 +66,7 @@ radio4.forEach(button => {
 function correct4(resposta){
     var r4 = window.document.getElementById('r4')
     if(resposta == 'Internet Protocol'){
-        r4.style.background = 'rgb(53, 230, 17)'
+        r4.style.background = 'aqua'
     }
     else{
         r4.style.background = 'rgb(236, 103, 121)'
@@ -82,7 +82,7 @@ radio5.forEach(button => {
 function correct5(resposta){
     var r5 = window.document.getElementById('r5')
     if(resposta == 'HyperText Markup Language'){
-        r5.style.background = 'rgb(53, 230, 17)'
+        r5.style.background = 'aqua'
     }
     else{
         r5.style.background = 'rgb(236, 103, 121)'
@@ -98,7 +98,7 @@ radio6.forEach(button => {
 function correct6(resposta){
     var r6 = window.document.getElementById('r6')
     if(resposta == 'Uniform Resource Locator'){
-        r6.style.background = 'rgb(53, 230, 17)'
+        r6.style.background = 'aqua'
     }
     else{
         r6.style.background = 'rgb(236, 103, 121)'
@@ -114,7 +114,7 @@ radio7.forEach(button => {
 function correct7(resposta){
     var r7 = window.document.getElementById('r7')
     if(resposta == 'Antivírus'){
-        r7.style.background = 'rgb(53, 230, 17)'
+        r7.style.background = 'aqua'
     }
     else{
         r7.style.background = 'rgb(236, 103, 121)'
@@ -130,7 +130,7 @@ radio8.forEach(button => {
 function correct8(resposta){
     var r8 = window.document.getElementById('r8')
     if(resposta == 'SMTP'){
-        r8.style.background = 'rgb(53, 230, 17)'
+        r8.style.background = 'aqua'
     }
     else{
         r8.style.background = 'rgb(236, 103, 121)'
@@ -146,7 +146,7 @@ radio9.forEach(button => {
 function correct9(resposta){
     var r9 = window.document.getElementById('r9')
     if(resposta == 'Um software ou hardware que monitora e controla o tráfego de rede'){
-        r9.style.background = 'rgb(53, 230, 17)'
+        r9.style.background = 'aqua'
     }
     else{
         r9.style.background = 'rgb(236, 103, 121)'
@@ -162,7 +162,7 @@ text10.addEventListener('keyup', function(event) {
 function correct10(resposta){
     var r10 = window.document.getElementById('q10')
     if(resposta.toUpperCase() == 'CPU'){
-        r10.style.background = 'rgb(53, 230, 17)'
+        r10.style.background = 'aqua'
     }
     else{
         r10.style.background = 'rgb(236, 103, 121)'
