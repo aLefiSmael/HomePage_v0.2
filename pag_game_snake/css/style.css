@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 *{
+
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -26,14 +27,14 @@ canvas{
 }
 
 #meuCanvas{
-    height: 450px;
-    width: 450px;
+    height: 312px;
+    width: 312px;
 }
 
 @media screen and (min-width: 770px){
     #meuCanvas {
-        height: 450px;
-        width: 450px;
+        height: 600px;
+        width: 600px;
     }
 }
 .score--value {
